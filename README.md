@@ -1,2 +1,7 @@
-# Vue 3 + Vite
+# Rapira
 
+## Запуск
+
+```bash
+yarn dev
+```
