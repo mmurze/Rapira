@@ -1,0 +1,82 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+
+html, body
+	padding: 0
+	margin: 0
+	font-weight: normal
+	font-style: normal
+	line-height: normal
+	font-family: "Inter", sans-serif
+
+*
+	outline: none
+	box-sizing: border-box
+	-webkit-appearance: none
+	padding: 0
+	margin: 0
+	letter-spacing: -0.03em
+
+img
+	max-width: 100%
+	height: auto
+
+	&.align-self
+		align-self: center
+
+input
+	&::-webkit-outer-spin-button
+		-webkit-appearance: none
+		margin: 0
+
+	&::-webkit-inner-spin-button
+		-webkit-appearance: none
+		margin: 0
+
+ul
+	list-style: none
+
+input, textarea
+	font-family: "Inter", sans-serif
+	width: 100%
+
+form
+	position: relative
+
+a
+	cursor: pointer
+	text-decoration: none
+	transition: all 0.3s ease-in-out
+
+	&:active
+		transition: all 0.1s ease-in-out !important
+
+	&:hover
+		transition: all 0.3s ease-in-out
+
+button
+	display: flex
+	align-items: center
+	justify-content: center
+	text-align: center
+	margin: 0
+	border: none
+	cursor: pointer
+	font-family: "Inter", sans-serif
+	background: transparent
+	transition: all 0.3s ease-in-out
+
+	&:active
+		transition: all 0.1s ease-in-out !important
+
+	&:disabled
+		cursor: default
+
+	&:hover
+		transition: all 0.3s ease-in-out
+
+	svg, &:hover svg
+		transition: 0.3s ease-in-out
+
